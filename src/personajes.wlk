@@ -19,8 +19,11 @@ object martin {
 /**		self.poneVasoEnDespensa()	*/
 /**		self.comprar(vasoDeAgua)	*/
 	}
-	method 
-
-
+	method hacerDeporte(unDeporte, tiempo){
+		energia -= unDeporte.energiaConsumida(tiempo)
+		tieneHambre = true
+		actividadDelDia += 1
+	}
+	
 
 }
