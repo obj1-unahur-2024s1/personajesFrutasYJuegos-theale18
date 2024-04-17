@@ -13,7 +13,7 @@ object volley{
 	method energiaConsumida(minutos) = 2*minutos
 }
 object aerobic{
-	method energiaConsumida() = ciudad.temperatura()
+	method energiaConsumida(minutos) = (ciudad.temperatura()*0.5)*(-1)
 }
 object ciudad{
 	var temperatura = 24
