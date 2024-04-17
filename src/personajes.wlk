@@ -1,4 +1,6 @@
 import frutas.*
+import juegos.*
+
 object martin {
 	//completar la solución
 	var energia = 100
@@ -6,6 +8,7 @@ object martin {
 	var actividadDelDia = 0
 	var despensa = vasoDeAgua
 
+	method tieneHambre() = tieneHambre
 	method esFeliz(){	/** return True		*/
 		return energia>80 || actividadDelDia>=2 && not tieneHambre
 	}
